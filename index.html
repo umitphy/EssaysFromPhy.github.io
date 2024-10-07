@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essayler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+        /* Sidebar - Başlıklar için */
+        .sidebar {
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            overflow-y: auto;
+        }
+        .sidebar h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .sidebar ul li a:hover {
+            color: #007BFF;
+        }
+        /* Content Area - Essay İçeriği için */
+        .content {
+            width: 75%;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .content h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        /* Genel stil */
+        a {
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar - Başlıklar -->
+    <div class="sidebar">
+        <h2>Essay Başlıkları</h2>
+        <ul>
+            <li><a href="#essay1">Essay 1 - Başlık</a></li>
+            <li><a href="#essay2">Essay 2 - Başlık</a></li>
+            <li><a href="#essay3">Essay 3 - Başlık</a></li>
+            <li><a href="#essay4">Essay 4 - Başlık</a></li>
+        </ul>
+    </div>
+
+    <!-- Content - Essay İçeriği -->
+    <div class="content">
+        <h2 id="essay1">Essay 1 - Başlık</h2>
+        <p>
+            Bu essay, birinci essay içeriğidir. Essaylerin tam içerikleri burada görüntülenecek.
+        </p>
+
+        <h2 id="essay2">Essay 2 - Başlık</h2>
+        <p>
+            Bu essay, ikinci essay içeriğidir. Buraya essayin detaylı metni yazılabilir.
+        </p>
+
+        <h2 id="essay3">Essay 3 - Başlık</h2>
+        <p>
+            Bu essay, üçüncü essay içeriğidir. Kapsamlı bir içerik oluşturulabilir.
+        </p>
+
+        <h2 id="essay4">Essay 4 - Başlık</h2>
+        <p>
+            Bu essay, dördüncü essay içeriğidir. Essay başlıkları soldaki menüde görüntülenir.
+        </p>
+    </div>
+</body>
+</html>
